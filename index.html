@@ -1,0 +1,17 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+  <title>Exercice 6</title>
+</head>
+<body ng-app>
+  <button ng-click="myVar=true">Paragraphe 1</button>
+  <button ng-click="myVar=false">Paragraphe 2</button>
+  <div ng-show="myVar">
+    <p>Paragraphe 1</p>
+  </div>
+  <div ng-hide="myVar">
+    <p>Paragraphe 2</p>
+  </div>
+</body>
+</html>
